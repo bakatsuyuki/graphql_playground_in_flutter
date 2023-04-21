@@ -1,0 +1,13 @@
+query getStatus{
+    viewer {
+        status {
+            emoji
+        }
+    }
+}
+
+mutation setStatus($emoji: String!) {
+    changeUserStatus(input: {emoji: $emoji}) {
+        clientMutationId
+    }
+}

@@ -41,6 +41,8 @@ dev_dependencies:
     sdk: flutter
   artemis: ^7.9.0-beta
   build_runner: ^2.3.2
+  json_serializable: ^6.5.4
+  freezed: ^2.2.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
